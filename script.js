@@ -240,16 +240,7 @@ window.addEventListener("keydown", (e)=>{
 });
 
 
-// ------------------- CONTACT FORM -------------------
-const contactForm = document.querySelector(".contact-form");
 
-if(contactForm){
-  contactForm.addEventListener("submit", (e)=>{
-    e.preventDefault();
-    alert("✅ Message sent successfully! Thank you 😄");
-    contactForm.reset();
-  });
-}
 
 
 // ------------------- BACK TO TOP -------------------
