@@ -690,3 +690,28 @@ body.light .contact-item{
 .c-value.link:hover{
   text-decoration:underline;
 }
+/* CONTACT DETAILS (VERTICAL STYLE) */
+.contact-item{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:6px;
+  padding:14px 0;
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+body.light .contact-item{
+  border-bottom:1px solid rgba(15,23,42,0.08);
+}
+
+.c-label{
+  color: var(--muted);
+  font-weight:800;
+  font-size:14px;
+}
+
+.c-value{
+  color: var(--text);
+  font-weight:600;
+  font-size:15px;
+  line-height:1.6;
+}
